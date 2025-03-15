@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dailypot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dailypot</h1>
+        <p>One-minute comments</p>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search comments...">
+            <span class="magnifier-icon">🔍</span>
+        </div>
+    </header>
+    <main id="comment-container">
+        <!-- Utterances input box -->
+        <section class="comment-input">
+            <script src="https://utteranc.es/client.js"
+                    repo="dailypot/dailypot.github.io"
+                    issue-term="title"
+                    theme="github-light"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+        </section>
+        <!-- Comment stacks will go here -->
+        <section class="comment-stack"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
