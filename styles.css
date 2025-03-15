@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    text-align: center;
+    text-align: center !important;
 }
 
 .search-bar {
