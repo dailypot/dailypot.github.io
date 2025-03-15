@@ -18,6 +18,10 @@ header {
     z-index: 1000;
 }
 
+div {
+  text-align: center;
+}
+
 header h1 {
     text-align: center !important;
 }
